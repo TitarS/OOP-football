@@ -1,1 +1,1 @@
-Кеш для OpenCart
+Кеш для OpenCart!
