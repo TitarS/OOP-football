@@ -56,4 +56,6 @@ class ControllerModulecache extends Controller {
         );
 	}
 }
+//more class
+
 ?>
