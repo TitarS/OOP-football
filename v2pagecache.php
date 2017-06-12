@@ -7,7 +7,7 @@
 //     http://www.freebsd.org/copyright/freebsd-license.html
 //
 class V2PageCache {
-    private $expire='14400000'   ; // expire time, in seconds 14400 = 4 hours
+    private $expire='10'   ; // expire time, in seconds 14400 = 4 hours
     private $lang='en'        ; // default language for site
     private $currency='USD'   ; // default currency for site
 
