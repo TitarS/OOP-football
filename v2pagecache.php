@@ -6,8 +6,9 @@
 // You may obtain a copy of the full license at:
 //     http://www.freebsd.org/copyright/freebsd-license.html
 //
+//
 class V2PageCache {
-    private $expire='10'   ; // expire time, in seconds 14400 = 4 hours
+    private $expire='14400'   ; // expire time, in seconds 14400 = 4 hours
     private $lang='en'        ; // default language for site
     private $currency='USD'   ; // default currency for site
 
@@ -42,7 +43,6 @@ class V2PageCache {
         '#/wishlist/#',
         '#/compare/#',
         '#/captcha#',
-        '#module/mega_filter#',
     );
 
     private $cachefile=null;   // null specifically meaning "not known yet"
