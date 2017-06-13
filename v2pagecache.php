@@ -8,7 +8,7 @@
 //
 //
 class V2PageCache {
-    private $expire='14400'   ; // expire time, in seconds 14400 = 4 hours
+    private $expire='144000000'   ; // expire time, in seconds 14400 = 4 hours
     private $lang='en'        ; // default language for site
     private $currency='USD'   ; // default currency for site
 
@@ -43,6 +43,7 @@ class V2PageCache {
         '#/wishlist/#',
         '#/compare/#',
         '#/captcha#',
+        '#module/mega_filter#'
     );
 
     private $cachefile=null;   // null specifically meaning "not known yet"
