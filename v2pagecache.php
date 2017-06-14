@@ -9,7 +9,7 @@
 //
 class V2PageCache {
     private $expire='144000000'   ; // expire time, in seconds 14400 = 4 hours
-    private $lang='en'        ; // default language for site
+    private $lang='ru'        ; // default language for site
     private $currency='USD'   ; // default currency for site
 
     private $addcomment=true  ; // set to true to add a comment to the bottom
